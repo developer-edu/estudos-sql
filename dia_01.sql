@@ -13,7 +13,12 @@ SELECT name, population
 FROM world
 WHERE name IN ('France', 'Germany', 'Italy');
 
--- CONCEITO 3: O que aprendi hoje
+-- CONCEITO 3: SELECT E WHERE com texto
+SELECT *
+FROM world
+WHERE continent - 'Europe'
+
+-- CONCEITO 4: O que aprendi hoje
 -- WHERE coluna = 'valor' → filtra por um valor
 -- WHERE coluna IN ('a','b','c') → filtra por lista
 -- AS → renomeia a coluna no resultado
